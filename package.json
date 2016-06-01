@@ -1,0 +1,30 @@
+{
+  "name": "stylelint-config-partystreusel",
+  "version": "1.0.0",
+  "description": "Stylelint config for Calydo projects with partystreusel",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "standard *.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brandleadership/stylelint-config-format.git"
+  },
+  "keywords": [
+    "stylelint",
+    "stylelint-config",
+    "partystreusel"
+  ],
+  "author": "Pascal Kuster <pascal.kuster@calydo.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brandleadership/stylelint-config-partystreusel/issues"
+  },
+  "homepage": "https://github.com/brandleadership/stylelint-config-partystreusel#readme",
+  "devDependencies": {
+    "standard": "^7.0.0"
+  }
+}
