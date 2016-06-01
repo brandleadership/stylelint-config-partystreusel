@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-partystreusel",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Stylelint config for Calydo projects with partystreusel",
   "main": "index.js",
   "files": [
