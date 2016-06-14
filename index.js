@@ -47,6 +47,7 @@ module.exports = {
     "function-url-quotes": "always",
     "function-whitespace-after": "always",
     "indentation": 2,
+    "length-zero-no-unit": true,
     "max-empty-lines": 1,
     "max-nesting-depth": [ 3, {
       ignore: ["at-rules-without-declaration-blocks"],
@@ -65,7 +66,6 @@ module.exports = {
     "no-missing-eof-newline": true,
     "number-leading-zero": "always",
     "number-no-trailing-zeros": true,
-    "number-zero-length-no-unit": true,
     "property-case": "lower",
     "rule-nested-empty-line-before": [ "always", {
       ignore: ["after-comment"],
