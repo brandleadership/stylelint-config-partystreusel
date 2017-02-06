@@ -1,7 +1,7 @@
 module.exports = {
   "rules": {
     "at-rule-empty-line-before": [ "always", {
-      except: [ "blockless-group", "first-nested" ],
+      except: [ "blockless-after-blockless", "first-nested" ],
       ignore: ["after-comment"],
     } ],
     "at-rule-name-case": "lower",
@@ -50,11 +50,10 @@ module.exports = {
     "length-zero-no-unit": true,
     "max-empty-lines": 1,
     "max-nesting-depth": [ 3, {
-      ignore: ["at-rules-without-declaration-blocks"],
+      ignore: ["blockless-at-rules"],
     } ],
     "media-feature-colon-space-after": "always",
     "media-feature-colon-space-before": "never",
-    "media-feature-no-missing-punctuation": true,
     "media-feature-range-operator-space-after": "always",
     "media-feature-range-operator-space-before": "always",
     "media-query-list-comma-newline-after": "always-multi-line",
@@ -68,12 +67,9 @@ module.exports = {
     "number-leading-zero": "always",
     "number-no-trailing-zeros": true,
     "property-case": "lower",
-    "rule-nested-empty-line-before": [ "always", {
+    "rule-empty-line-before": [ "always", {
       ignore: ["after-comment"],
       except: ["first-nested"],
-    } ],
-    "rule-non-nested-empty-line-before": [ "always-multi-line", {
-      ignore: ["after-comment"],
     } ],
     "selector-class-pattern": "^[a-z]([-]?[a-z0-9]+)*(__[a-z0-9]([-]?[a-z0-9]+)*)?(--[a-z0-9]([-]?[a-z0-9]+)*)?$",
     "selector-combinator-space-after": "always",
